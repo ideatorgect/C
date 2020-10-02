@@ -1,0 +1,36 @@
+
+File created
+  File :Hello.txt
+  Directory :main
+  Date created :10/7/18
+  permissions :R W X
+File created
+  File :Haha.img
+  Directory :main
+  Date created :11/7/18
+  permissions :R W X
+File created
+  File :Haha.img
+  Directory :sec
+  Date created :12/12/18
+  permissions :R W X
+File deleted
+  File :Hello.txt
+  Directory :main
+  Date created :10/7/18
+  permissions :R W X
+File created
+  File :hello.txt
+  Directory :secn
+  Date created :10/7/19
+  permissions :R W XCannot insert file. A file with this name already exists
+MATCH 1 - 
+  File :Haha.img
+  Directory :main
+  Date created :11/7/18
+  permissions :R W X
+MATCH 2 - 
+  File :Haha.img
+  Directory :sec
+  Date created :12/12/18
+  permissions :R W X

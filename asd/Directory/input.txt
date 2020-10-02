@@ -1,0 +1,64 @@
+
+--Single level--
+1.Create File
+2.Delete File
+3.Search File
+4.Display
+Enter choice:
+------INSERT FILE------
+Enter the file name : ABC
+Enter the Location(only root can exist) : root
+Enter the date of creation : 6/6/18
+Enter the size : 10
+DEFAULT values filed in rest of the fields
+
+--Single level--
+1.Create File
+2.Delete File
+3.Search File
+4.Display
+Enter choice:
+------INSERT FILE------
+Enter the file name : TEST
+Enter the Location(only root can exist) : root
+Enter the date of creation : 7/6/18
+Enter the size : 10
+DEFAULT values filed in rest of the fields
+
+--Single level--
+1.Create File
+2.Delete File
+3.Search File
+4.Display
+Enter choice:
+------DELETE FILE------
+Enter the file name : NOTES
+--Single level--
+1.Create File
+2.Delete File
+3.Search File
+4.Display
+Enter choice:
+------INSERT FILE------
+Enter the file name : TEST
+Enter the Location(only root can exist) : root
+Enter the date of creation : 6/6/18
+Enter the size : 10
+DEFAULT values filed in rest of the fields
+
+--Single level--
+1.Create File
+2.Delete File
+3.Search File
+4.Display
+Enter choice:
+------SEARCH FILE------
+Enter the file name : ABC
+--Single level--
+1.Create File
+2.Delete File
+3.Search File
+4.Display
+Enter choice:
+------DELETE FILE------
+Enter the file name : ABC

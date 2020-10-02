@@ -1,0 +1,22 @@
+
+File created
+  File :ABC
+  Directory :root
+  Date created :6/6/18
+  permissions :R W X
+File created
+  File :TEST
+  Directory :root
+  Date created :7/6/18
+  permissions :R W X
+File name already exists 
+File found
+  File :ABC
+  Directory :root
+  Date created :6/6/18
+  permissions :R W X
+File deleted
+  File :ABC
+  Directory :root
+  Date created :6/6/18
+  permissions :R W X
