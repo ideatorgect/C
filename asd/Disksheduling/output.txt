@@ -1,0 +1,9 @@
+FCFS------
+Total number of head movement: 632
+
+SCAN------
+Total number of head movement: 331
+
+CSCAN------
+Total number of head movement: 386
+
