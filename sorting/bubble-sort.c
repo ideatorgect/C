@@ -8,7 +8,7 @@ void swap(int *xp, int *yp)
     *xp = *yp;  
     *yp = temp;  
 }  
-int bubble_sort(int arr[],int N){
+void bubble_sort(int arr[],int N){
 	int i,j;
 	int count=0;
 	for(i=0;i<N;i++)
@@ -20,17 +20,20 @@ int bubble_sort(int arr[],int N){
 			}
 		}
 	}
-	return count;
+	//return arr;
 }
 int main(){
 	int N;
 	int i;
+    printf("Enter array\n");
 	scanf("%d",&N);
 	int arr[N];
 	for(i=0;i<N;i++){
 		scanf("%d",&arr[i]);
 	}
-	int swaps;
-	swaps=bubble_sort(arr,N);
-	printf("%d",swaps);
+	bubble_sort(arr,N);
+	printf("Sorted Array\n");
+	for(i=0;i<N;i++){
+		printf("%d\t",arr[i]);
+	}
 }
