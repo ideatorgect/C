@@ -1,0 +1,107 @@
+Menu
+1.SEQUENTIAL
+2.LINKED
+3.INDEXED
+4.EXIT
+enter choice: 1
+SEQUENTIAL
+Enter the no. of blocks: 1010
+File Content
+Starting Address	Length	Content
+		1			3	abc
+		2			1	x
+		7			2	yz
+		9			3	pqr
+
+Request's Status: 
+	1	Allocated
+	2	Not allocated
+	7	Allocated
+	9	Not allocated
+Status of memory blocks		Blocks		Contents
+		1					Occupied		a
+		2					Occupied		b
+		3					Occupied		c
+		4					Free		 
+		5					Free		 
+		6					Free		 
+		7					Occupied		y
+		8					Occupied		z
+		9					Free		 
+		10					Free		 
+Menu
+1.SEQUENTIAL
+2.LINKED
+3.INDEXED
+4.EXIT
+enter choice: 2
+LINKED
+Enter the no. of blocks:10 10
+
+Node Linkage data:
+Current Node	Next Node
+1		5
+5		2
+2		7
+7		3
+3		4
+4		6
+
+Process File Content
+Process		Length		Content
+P1		3		abc
+P2		1		x
+P3		2		yz
+P4		3		pqr
+
+Process		StartAddress	EndAddress	Status
+	P1		1		2		Alloted
+	P2		7		7		Alloted
+	P3		3		4		Alloted
+	P4		6		 		Not Alloted
+
+Contents of Process
+P1
+	1	a
+	2	c
+	5	b
+P2
+	7	x
+P3
+	3	y
+	4	z
+P4
+Menu
+1.SEQUENTIAL
+2.LINKED
+3.INDEXED
+4.EXIT
+enter choice: 3
+INDEXED
+Enter the no. of blocks: 1010
+Process File Content
+Process	Length	Index	Content
+	P1		3		7		abc
+	P2		1		8		x
+	P3		2		3		yz
+	P4		3		4		pqr
+
+Process		Index		Blocks		Status
+P1		7		1, 2, 3, 		Alloted
+P2		8		4, 		Alloted
+P3		3						Not Alloted
+P4		4						Not Alloted
+
+Allocation
+Index	Block	Contents
+7		1		a
+7		2		b
+7		3		c
+8		4		x
+Menu
+1.SEQUENTIAL
+2.LINKED
+3.INDEXED
+4.EXIT
+enter choice: 4
+EXITING...
